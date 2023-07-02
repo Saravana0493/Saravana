@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22307" started-at="2023-01-16T14:26:58Z" finished-at="2023-01-16T14:27:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22307" started-at="2023-01-16T14:26:58Z" finished-at="2023-01-16T14:27:20Z">
+      <class name="testCase.WindowsHandling">
+        <test-method status="PASS" signature="login()[pri:0, instance:testCase.WindowsHandling@6adede5]" name="login" is-config="true" duration-ms="7554" started-at="2023-01-16T14:26:59Z" finished-at="2023-01-16T14:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="windowshandle(java.util.Map)[pri:0, instance:testCase.WindowsHandling@6adede5]" name="windowshandle" duration-ms="13963" started-at="2023-01-16T14:27:06Z" data-provider="readExcelData" finished-at="2023-01-16T14:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Firstname=Mano, Lastname=balan, TestCase Name=WindowsHandling, S.No=1, Postal code=6337373262}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowshandle -->
+      </class> <!-- testCase.WindowsHandling -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
